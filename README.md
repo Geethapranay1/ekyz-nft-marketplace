@@ -5,7 +5,7 @@ The design is inspired by a provided Figma file, with custom fonts, SVG vectors,
 
 ---
 ## 🚀 Live Demo
-[🔗 View Demo](#)
+[🔗 View Demo](#https://ekyz-nft-marketplace.vercel.app/)
 
 ## 🚀 Project Structure
 ```├── assets/
