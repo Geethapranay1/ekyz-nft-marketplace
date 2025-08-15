@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Voltec';
+  src: url('./assets/fonts/Voltec.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./assets/fonts/Orbitron.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Atomos';
+  src: url('./assets/fonts/Atomos-Outline.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Atomos-Regular';
+  src: url('./assets/fonts/Atomos-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Megaton';
+  src: url('./assets/fonts/Megaton.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('./assets/fonts/PressStart2P.ttf') format('truetype');
+}
+
+
+/* Scrolling animations */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-slow {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll-slow {
+  animation: scroll-slow 30s linear infinite;
+}
